@@ -10,6 +10,7 @@ const Contact = () => {
       <>
         <div
           ref={contactRef}
+          className="contact-contain"
           style={{
             backgroundImage: `url(${bgimage})`, // Add this line
             backgroundSize: "cover",
@@ -19,8 +20,8 @@ const Contact = () => {
             border: "2px solid #f51111",
             borderRadius: "5px",
             boxShadow: "0 0 10px rgba(255, 0, 0, 0.1)",
-            margin: "80px",
-            padding: "50px",
+            margin: "15px",
+            padding: "10px",
             fontWeight: "bold",
           }}
         >
@@ -130,8 +131,7 @@ const Contact = () => {
                   marginLeft: "10%",
                   marginRight: "10%",
                   marginBottom: "1rem",
-                  justifyContent: "center",
-                  alignItems: "center",
+
                   borderColor: "black", // Add this line to set the button border color to black
                 }}
                 href={item.href}

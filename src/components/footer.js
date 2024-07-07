@@ -40,12 +40,12 @@ export default function Footer() {
               backgroundColor: "black",
               borderRadius: 2,
               padding: "10px 20px",
-              fontSize: "1rem",
+              fontSize: "20px",
               textTransform: "none",
             }}
           >
             <FaGithub
-              size={20}
+              size={30}
               style={{
                 marginRight: 10,
               }}

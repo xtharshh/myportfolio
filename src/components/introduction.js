@@ -47,7 +47,7 @@ function Introduction() {
             <span style={{ color: "orange" }}>
               Bachelor's of Technology in Computer Science And Engineering
             </span>
-            . Born and raised in Gurgaon, Haryana. I'm a hardworking, passinate
+            . Born and raised in Gurgaon, Haryana. I'm a hardworking, passionate
             and confident individual with a strong enthusiasm for Innovations
             and Technologies.
           </p>
