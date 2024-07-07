@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../styles/footer.css";
 import { Button } from "@mui/material";
 import { FaGithub } from "react-icons/fa";
@@ -34,6 +34,7 @@ export default function Footer() {
           </Button>
           <Button
             variant="contained"
+            href="https://github.com/xtharshh/myportfolio"
             sx={{
               color: "white",
               backgroundColor: "black",

@@ -2,7 +2,6 @@
 import React, { useRef } from "react";
 import "../styles/intro.css";
 import { Button } from "@mui/material";
-import { SocialIcon } from "react-social-icons";
 import harshpic1 from "../assets/harshpic1.jpg";
 
 function Introduction() {
@@ -11,14 +10,9 @@ function Introduction() {
     <div
       ref={introductionRef}
       className="intro"
-      style={{ backgroundColor: "#ffe135" }}
+      style={{ backgroundColor: "#ffe135", borderRadius: "5px" }}
     >
       <header className="header-intro">
-        {/* <img
-          src="college-logo.png"
-          alt="College Logo"
-          className="college-logo"
-        /> */}
         <span
           style={{
             fontFamily: "monospace",
@@ -67,7 +61,7 @@ function Introduction() {
         <section id="contact" className="zoom box box.git">
           <img
             src={harshpic1}
-            alt="My Picture"
+            alt="MyPhoto"
             style={{
               width: "100%",
               height: "100%",
@@ -94,7 +88,7 @@ function Introduction() {
           </p>
         </div>
 
-        <div className="box box-git zoom">
+        <div className="box box-git zoom" style={{ borderRadius: "5px" }}>
           <Button
             href="https://www.github.com/xtharshh"
             className="button-contact zoom"
