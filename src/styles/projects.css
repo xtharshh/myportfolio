@@ -1,0 +1,42 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
+/* For screens smaller than 768px (tablets and mobiles) */
+
+@media (max-width: 768px) {
+  .grid {
+    justify-content: center ;
+    align-items: center;
+    
+  }
+
+  
+  
+}
+.project-head{
+  font-size: 50px;
+  font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.zoom:hover {
+    transform: scale(1.1); /* 150% zoom (adjust as needed) */
+    transition: transform 0.3s ease; /* Smooth transition */
+    
+  }
+/* For screens smaller than 480px (mobiles) */
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-item {
+    width: 100%;
+  }
+  .card {
+    flex-direction: column;
+  }
+  
+}

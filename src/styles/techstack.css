@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
+.tech-stack-container {
+  max-width: 900px;
+  max-height: max-content;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.zoom:hover {
+  transform: scale(1.1); /* 150% zoom (adjust as needed) */
+  transition: transform 0.3s ease; /* Smooth transition */
+  
+}
+
+.section {
+  flex-basis: 40%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #f51111;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+}
+
+.frontend, .backend {
+  flex-basis: 45%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e01414;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.skill-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .section, .frontend, .backend {
+    flex-basis: 100%;
+  }
+}
