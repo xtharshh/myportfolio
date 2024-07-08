@@ -267,6 +267,7 @@
   }
   .greet{
     margin-top: 5px;
+    text-align: center;
   }
   .divright{
     display: flex;
