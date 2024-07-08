@@ -38,14 +38,18 @@ function Introduction() {
           </h2>
 
           <p style={{ fontSize: "20px", fontFamily: "monospace" }}>
-            Hi, <span style={{ color: "red" }}>I'm Harsh Kumar</span>, a 3rd
-            Year student at{" "}
-            <span style={{ color: "green" }}>
+            Hi,{" "}
+            <span style={{ color: "red", fontWeight: "bold" }}>
+              I'm Harsh Kumar
+            </span>
+            , a 3rd Year student at{" "}
+            <span style={{ color: "green", fontWeight: "bold" }}>
               Chandigarh Engineering College, Mohali
             </span>
             , pursuing a degree in{" "}
-            <span style={{ color: "orange" }}>
+            <span style={{ color: "orange", fontWeight: "bold" }}>
               Bachelor's of Technology in Computer Science And Engineering
+              (2k22-2k26)
             </span>
             . Born and raised in Gurgaon, Haryana. I'm a hardworking, passionate
             and confident individual with a strong enthusiasm for Innovations
