@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useRef } from "react";
-import { Grid, Container, Typography } from "@mui/material";
+import { Grid, Container, Typography, Link } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -18,21 +18,25 @@ const projects = [
     subtitle:
       "A Gamified platform for the kids, and made this project in the Smart India Hackathon 2k23",
     image: Advokids,
+    link: "https://advo-kids.vercel.app/", // Add the live link here
   },
   {
     title: "Enterprise Level Food Ordering Website",
     subtitle: "React, Vite & shadcn Based",
     image: Enterprise,
+    link: "https://example.com/enterprise", // Add the live link here
   },
   {
     title: "Weather App",
     subtitle: "React Based Weather Application",
     image: Weather,
+    link: "https://example.com/weather", // Add the live link here
   },
   {
     title: "another one",
     subtitle: "soon",
     image: Another,
+    link: "https://example.com/weather", // Add the live link here
   },
 ];
 
@@ -40,16 +44,7 @@ export default function MediaCard() {
   const projectsRef = useRef();
 
   return (
-    <div
-      ref={projectsRef}
-      style={{
-        border: "2px solid #f51111",
-        boxShadow: "0 0 10px rgba(255, 0, 0, 0.1)",
-        margin: "50px",
-        borderRadius: "5px",
-        backgroundColor: "transparent",
-      }}
-    >
+    <div className="mobile" ref={projectsRef} style={{}}>
       <Container maxWidth="lg" sx={{ py: 10 }}>
         <span
           style={{
@@ -115,9 +110,15 @@ export default function MediaCard() {
                   <Button size="small" style={{ fontFamily: "monospace" }}>
                     Demo
                   </Button>
-                  <Button size="small" style={{ fontFamily: "monospace" }}>
-                    Live
-                  </Button>
+                  <Link
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button size="small" style={{ fontFamily: "monospace" }}>
+                      Live
+                    </Button>
+                  </Link>
                 </CardActions>
               </Card>
             </Grid>

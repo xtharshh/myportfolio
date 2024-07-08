@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "../styles/techstack.css";
 import { RiReactjsFill } from "react-icons/ri";
 import { MdApi } from "react-icons/md";
+import { IoLogoVercel } from "react-icons/io5";
 import { SiMui, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { SiExpress, SiPostgresql, SiMysql } from "react-icons/si";
 import {
@@ -56,6 +57,7 @@ const backendSkills = [
     logo: <SiMysql size={40} color="black" />,
   },
   { name: "API", logo: <MdApi size={40} color="black" /> },
+  { name: "Vercel", logo: <IoLogoVercel size={40} color="black" /> },
 ];
 
 export default function TechStack() {

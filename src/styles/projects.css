@@ -2,12 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
 /* For screens smaller than 768px (tablets and mobiles) */
-
+.mobile{
+        border: 2px solid #f51111;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+        margin: 50px;
+        border-radius: 5px;
+        background-color: transparent;
+}
 @media (max-width: 768px) {
   .grid {
     justify-content: center ;
     align-items: center;
     
+  }
+  .mobile{
+    margin: 10px;
+
   }
 
   
