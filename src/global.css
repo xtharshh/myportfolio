@@ -274,6 +274,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .buttondiv{
     
