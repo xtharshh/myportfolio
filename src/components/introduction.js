@@ -16,7 +16,7 @@ function Introduction() {
         <span
           style={{
             fontFamily: "monospace",
-            color: "black",
+            color: "grey",
             fontSize: "24px",
             fontWeight: "bold",
           }}
@@ -39,15 +39,15 @@ function Introduction() {
 
           <p style={{ fontSize: "20px", fontFamily: "monospace" }}>
             Hi,{" "}
-            <span style={{ color: "red", fontWeight: "bold" }}>
+            <span style={{ color: "", fontWeight: "bold" }}>
               I'm Harsh Kumar
             </span>
             , a 3rd Year student at{" "}
-            <span style={{ color: "green", fontWeight: "bold" }}>
+            <span style={{ color: "", fontWeight: "bold" }}>
               Chandigarh Engineering College, Mohali
             </span>
             , pursuing a degree in{" "}
-            <span style={{ color: "orange", fontWeight: "bold" }}>
+            <span style={{ color: "", fontWeight: "bold" }}>
               Bachelor's of Technology in Computer Science And Engineering
               (2k22-2k26)
             </span>

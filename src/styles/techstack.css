@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .tech-stack-container {
   max-width: 900px;
   max-height: max-content;
@@ -8,7 +8,7 @@
 
 .title {
   font-size: 50px;
-  font-family: "Freckle Face", system-ui;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
