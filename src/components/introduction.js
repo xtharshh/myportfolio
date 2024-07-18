@@ -10,7 +10,7 @@ function Introduction() {
     <div
       ref={introductionRef}
       className="intro"
-      style={{ backgroundColor: "#ffe135", borderRadius: "5px" }}
+      style={{ borderRadius: "5px" }} //backgroundColor: "#ffe135",
     >
       <header className="header-intro">
         <span
