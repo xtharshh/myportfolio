@@ -72,7 +72,7 @@ function Profile() {
             <Button
               className="resume zoom"
               variant="outlined"
-              href="https://drive.google.com/file/d/15S_ukV1fTedeCigpk-9axhE_ScUFtyDF/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1xDbzxuj8Pu348b1fr3bXv2xHVwCRSSif/view?usp=drive_link"
               sx={{
                 color: "black",
 
